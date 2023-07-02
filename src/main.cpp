@@ -37,8 +37,8 @@ TM1637<6, 7> display;
 uint16_t counter = COUNTER_MIN;
 #ifndef INVERT
 uint16_t touch_off[TOUCH_COUNT];
-uint8_t touch_pressed[TOUCH_COUNT];
 #endif
+uint8_t touch_pressed[TOUCH_COUNT];
 #else
 #ifndef INVERT
 uint16_t touch_off;
